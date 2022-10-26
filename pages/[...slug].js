@@ -4,10 +4,9 @@ import { BlockRenderer } from "components/BlockRenderer";
 import { cleanAndTransformBlocks } from "utils/cleanAndTransformBlocks";
 
 export default function Page(props) {
-    console.log("[Page Props]: ", props)
     return (
     <div>
-        <BlockRenderer  blocks={props.blocks}/>
+        <BlockRenderer blocks={props.blocks}/>
     </div>
     )
 };
